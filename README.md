@@ -1,99 +1,71 @@
-# python-ml-home-price-ann-estimator
+# python-ml-home-price-estimator
 
-This repository contains a Python-based Artificial Neural Network (ANN) project that estimates residential home prices based on square footage.
-The model was built from scratch using NumPy only, without high-level ML libraries, to demonstrate a clear understanding of neural network fundamentals.
+This repository contains a Python-based machine learning project that demonstrates the fundamentals of artificial neural networks (ANNs).
+The project estimates residential home prices based on square footage using a neural network built from scratch with NumPy, without relying on high-level ML libraries.
 
-This project was created as part of coursework for CSC506 and serves as an introductory machine-learning portfolio piece.
+The goal of this repo is to showcase introductory machine-learning concepts in a clean, well-organized portfolio format that is easy to review for instructors, recruiters, and future employers.
 
-🧠 Project Overview
+---
 
-The neural network uses:
+## 📁 Project Files
 
-One input node (square footage)
+### Everett_HomeValuator_Module_3.py
+Home Price Estimator using an Artificial Neural Network
 
-One hidden layer with three neurons
+Uses a simple feedforward neural network with one hidden layer to learn pricing trends from example home data.
 
-One output node (estimated home price)
+Includes:
+- Data normalization
+- Custom sigmoid activation function
+- Manual backpropagation and gradient descent
+- Training output showing predicted vs actual prices
+- Interactive user input for estimating unknown home prices
 
-The model is trained using backpropagation and a sigmoid activation function to learn pricing trends from a small dataset of Scottsdale, AZ home prices.
+---
 
-After training, the network can:
+## 🚀 How to Run the Project
 
-Display predicted vs actual home prices
-
-Accept user input to estimate the price of an unknown home
-
-📁 Files Included
-
-Everett_HomeValuator_Module_3.py
-Main Python script containing:
-
-Data normalization
-
-Network architecture
-
-Training loop
-
-Backpropagation logic
-
-Interactive user prediction
-
-🚀 How to Run the Project
-
-Install Python 3
-
-Install NumPy if not already installed:
-
+1. Install Python 3
+2. Install required dependency:
+```
 pip install numpy
-
-
-Run the script:
-
+```
+3. Run the script:
+```
 python Everett_HomeValuator_Module_3.py
+```
+4. Enter a square-footage value when prompted to receive a price estimate.
 
+---
 
-Follow the prompt to enter a square-footage value and receive a price estimate.
+## 🛠️ Technologies Used
 
-🛠️ Technologies Used
+- Python 3
+- NumPy
+- Custom implementation of:
+  - Neural network architecture
+  - Sigmoid activation function
+  - Backpropagation
+  - Gradient descent
 
-Python 3
+---
 
-NumPy
+## 🎯 Purpose of This Repository
 
-Manual implementation of:
+This project demonstrates foundational machine-learning skills including:
 
-Sigmoid activation function
+- Neural network fundamentals
+- Forward and backward propagation
+- Data normalization
+- Model training and evaluation
+- Applying ML concepts to a real-world scenario
 
-Gradient descent
+The focus is on conceptual understanding, clarity, and clean project organization rather than production-level accuracy.
 
-Backpropagation
-
-🎯 Learning Objectives Demonstrated
-
-This project demonstrates understanding of:
-
-Neural network architecture
-
-Forward and backward propagation
-
-Activation functions
-
-Data normalization
-
-Training loops and convergence
-
-Applying ML concepts to a real-world problem
-
-📌 Notes
-
-The dataset is intentionally small and simplified for learning purposes
-
-Pricing data is illustrative and not intended for real-world valuation use
-
-No external ML frameworks were used to emphasize conceptual understanding
+---
 
 ## 👤 Author
 
-**Brandon Everett**  
-ML & AI Graduate Student  
-Outdoorsy Lender
+**Brandon Everett**
+ML & AI Graduate Student | Outdoorsy Lender
+
